@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.sdlms-header-section {
+  background: #f0f0f0;
+  padding: 1rem 0;
+  box-shadow: 0 4px 4px 0 #00000040;
+  position: -webkit-sticky;
+  position: sticky;
+  min-height: 60px;
+  top: 0;
+  z-index: 99999;
+  height: 5%;
+}
+
+header .sdlms-header {
+  height: 100%;
+  width: calc(var(--max-container-width));
+  margin: auto;
+  padding: 0 1.9rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.icons > img {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.menu {
+  border-radius: 0 !important;
+  width: inherit !important;
+  margin: 0px 5px !important;
+}
+
+.logo-deep > img {
+  height: 75%;
+}
+
+.root {
+  margin: 50px 100px;
+  box-shadow: 0px 0px 8px 0px #00000050;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.taskHeading {
+  text-align: center;
+  padding: 10px;
+}
+.containerHeading {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #0029ff;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0px 0px 8px 0px #00000050;
+  width: 40%;
+  height: fit-content;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card > .heading {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+}
+
+.card > .content {
+  padding: 25px 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.sidebar {
+  position: absolute;
+  left: -330px;
+  box-shadow: 0px 0px 8px 0px #00000050;
+  width: 20%;
+  height: fit-content;
+  background-color: #fdfdfd;
+  border-radius: 0px 10px 0px 0px;
+  margin: 20px;
+  transition: all 0.3s ease-in;
+  overflow: hidden;
+}
+
+.active {
+  left: -20px;
+}
+.sidebar hr {
+  display: none;
+}
+.active hr {
+  display: block;
+}
+
+.sidebar > .sidebarHead {
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 0px 10px 0px 0px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar > .sidebarContent {
+  height: 100vh;
+}
+
+.task-list {
+  list-style: decimal;
+}
+
+.task-list > li {
+  padding: 10px;
+}
+
+.assert-list {
+  list-style: disc;
+  width: fit-content;
+}
+.assert-list > hr {
+  width: 80%;
+  margin: auto;
+}
+
+.assert-list > li {
+  padding: 10px;
+}
+
+.burger {
+  float: right;
+  width: 25px;
+  padding-right: 10px;
+}
